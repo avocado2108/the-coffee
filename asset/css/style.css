@@ -25,6 +25,7 @@ html {
 .p-fontsize {
     font-size: 15px;
     padding: 15px 0px 0px;
+    text-align: justify;
 }
 
 .opa {
@@ -51,6 +52,22 @@ html {
     font-style: italic;
 }
 
+.flex-box {
+    display: flex;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.width-50 {
+    width: 500px; !important
+}
+
+.align-c {
+    text-align: center;
+}
+
 /*CSS elements*/
 #main {
 /*không biết code gì nên viết cmt*/
@@ -68,7 +85,6 @@ html {
 #nav {
     position: relative;
     width: 100%;
-    text-align: center;
 }
 
 #nav > li {
@@ -132,6 +148,7 @@ html {
 
 #slider .slider-audio {
     padding-top: 24px;
+    
 }
 
 #slider .slider-audio:hover {
@@ -154,14 +171,14 @@ html {
 #content .section-background-color {
     background-color: rgb(247, 217, 154)
 }
-/*
+
 #content .section-background-color {
-    background: url(../img/content/back-img-1.jpg) center center / cover no-repeat;
-}*/ /*chưa tìm ra cách giải quyết*/
+    
+}
 
 #content .section-text {
-    text-align: center;
     width: 100%;
+    padding: 0px 15px;
 }
 
 #content .section-text h1 {
@@ -173,7 +190,7 @@ html {
     padding: 16px 0px 0px ;
 }
 
-/*tiếp theo đây là css cho h1 h4 p*/
+
 
 /*CONTENT-END*/
 
