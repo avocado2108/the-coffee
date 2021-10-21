@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Coffee</title>
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./asset/img/favicon/favicon-logo-1-1.jpg">
 </head>
 <body>
     <div id="main">
@@ -15,11 +16,11 @@
             <ul id="nav" class="align-c">
                 <li><a class="let-spa text-color" href="#slider">Home</a> |</li>
                 <li><a class="let-spa text-color" href="#AboutUs">About Us</a> |</li>
-                <li><a class="let-spa text-color" href="">The Coffee</a> |
+                <li><a class="let-spa text-color" href="#">The Coffee</a> |
                     <!--Subnav-->
                     <ul class="bor-rad-8px main-color subnav">
                         <li><a class="let-spa text-color" href="#History">History</a></li>
-                        <li><a class="let-spa text-color" href="">Classify</a></li>
+                        <li><a class="let-spa text-color" href="#Classify">Classify</a></li>
                         <li><a class="let-spa text-color" href="">Mixing</a></li>
                     </ul>
                     <!--Subnav-end-->
@@ -27,7 +28,6 @@
                 <li><a class="let-spa text-color" href="">Contact</a></li>
             </ul>
             <!--Nav-end-->   
-            </div>
         </div><!--HEADER-END-->
         
         <!--SLIDER-->
@@ -42,7 +42,7 @@
                     <p>-Anthony Trollope-</p>
                 </div>
                 <div class="opa slider-audio">
-                    <audio controls autoplay>
+                    <audio controls auto/play>
                         <source src="./asset/audio/Vivaldi-summer-ogg.ogg" type="audio/ogg">
                         <source src="./asset/audio/Vivaldi-summer-mpeg.mpeg" type="audio/mpeg">
                     </audio>
@@ -57,11 +57,9 @@
                 <div class="section-content">
                     <div class="section-items">
                         <div class="align-c text-color section-text">
-                            <h1 class="let-spa text-head">THE COFFEE</h1>
-                            <h4 class="opa-06 italic text-subhead">Coffee smells like freshly ground heaven.</h4>
-                            <p class="align-c p-fontsize text-body">Hello Stranger! We talking about coffee in here.</p>
-                            <br>
-                            <h3 class="text-subhead">Truyền thuyết Ethopia</h3>
+                            <h1 class="let-spa text-head">THE COFFEE<!--<img src="./asset/img/favicon/favicon-logo-1-1.jpg"alt="">--></h1>
+                            <h4 class="opa-06 italic text-subhead">Hello Stranger! We talking about coffee in here.</h4>
+                            <h3 class="align-c text-subhead">Truyền thuyết Ethopia</h3>
                             <p class="p-fontsize text-body">
                                 Cafe đã có mặt trên thế giới từ nhiều thế kỷ trước, 
                                 với những khu rừng cafe cổ trên cao nguyên Ethiopia. 
@@ -85,14 +83,20 @@
                                 Khi con người di chuyển về phía đông và cà phê đến bán đảo Ả Rập, 
                                 nó bắt đầu một cuộc hành trình mang những hạt cà phê này đi khắp thế giới.
                             </p>
+                            <br>
                         </div>
+                        <div class="section-img">
+                            <img src="./asset/img/content/section/section-1.jpg" alt="kaldi và đàn dê">
+                        </div>
+                        <hr>
                     </div>
                 </div>
             </div><!--About Us End-->
             
             <!--TheCoffee/History-->
-            <div class="section-content">
-                <h1 id="History" class="align-c section-text text-color let-spa text-head">HISTORY</h1>
+            <!--<div class="section-background-img"></div>-->
+            <div id="History" class="section-content">
+                <h1 class="align-c section-text text-color let-spa text-head">HISTORY</h1>
                 <div class="section-items"> <!--flex-box-->
                     <div class="text-color section-text">
                         <h3 class="text-subhead">Khởi nguồn lịch sử</h3>
@@ -112,13 +116,10 @@
                             Chỗ hạt giã vụn đó được trộn với đường trong một cái bình gọi là jebena (một loại bình cổ thon có quai), nấu lên và đổ ra bát.
                         </p>
                     </div>
-                    <!--
                     <div class="section-img">
-                        <div class="image">
-                            <img src="./asset/img/content/section/section-2-2.jpg" alt="kaldi and his goats">
-                        </div>
-                            
-                    </div>-->
+                        <img src="./asset/img/content/section/kaffa-ethiopia.jpg" alt="kaffa">
+                    </div>
+                </div>
                 <br>
                 <hr>
                 <div class="section-items"> <!--flex-box-->
@@ -155,10 +156,33 @@
                         </p>
                     </div>
                 </div>
-                
+                <br>
+                <hr>
+            </div>
+            <!--TheCoffee/History/DONE-->
+            <!--TheCoffee/Classify-->
+            <div class="section-background-color">
+                <div id="Classify" class="section-content">
+                    <h1 class="align-c section-text text-color let-spa text-head">CLASSIFY</h1>
+                    <div class="margin- flex-box text-color section-items">
+                       <div class="coffee-type section-img">
+                        <img class="cf-img" src="./asset/img/content/classify/Robusta.jpg" alt="Cafe Robusta">
+                        <h3 class="coffee-name">Robusta</h3>
+                        <p class="coffee-des">test</p>
+                       </div>
+                       <div class="coffee-type section-img">
+                        <img class="cf-img" src="./asset/img/content/classify/Arabica.jpg" alt="Cafe Arabica">
+                        <h3 class="coffee-name">Arabica</h3>
+                        <p class="coffee-des">test</p>
+                       </div>
+                       <div class="coffee-type section-img">
+                        <img class="cf-img" src="./asset/img/content/classify/moka.jpg" alt="cafe moka">
+                        <h3 class="coffee-name">Moka</h3>
+                        <p class="coffee-des">test</p>
+                       </div> 
+                    </div>
                 </div>
             </div>
-
         </div><!--CONTENT-END-->
         
         <!--FOOTER-->

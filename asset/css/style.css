@@ -26,6 +26,7 @@ html {
     font-size: 15px;
     padding: 15px 0px 0px;
     text-align: justify;
+    text-indent: 50px;
 }
 
 .opa {
@@ -60,12 +61,24 @@ html {
     display: inline-block;
 }
 
-.width-50 {
-    width: 500px; !important
-}
-
 .align-c {
     text-align: center;
+}
+
+.coffee-type {
+    padding: 0px 15px;
+    list-style: none;
+    width: calc(100%/3);
+    display: block;
+}
+
+.margin- {
+    margin: 0px -15px;
+}
+
+.cf-img {
+    width: 100%;
+    object-fit: cover;
 }
 
 /*CSS elements*/
@@ -124,8 +137,8 @@ html {
 
 /*SLIDER*/
 #slider {
-    background: url(../img/slide/coffee-slide2.jpg) top center / cover no-repeat;
-    padding-top: 50%;
+    background: url(../img/slide/coffee-slide2.jpg) center center / cover no-repeat;
+    padding-top: 30%;
     margin-top: 40px;
     position: relative;
 }
@@ -158,27 +171,23 @@ html {
 
 /*CONTENT*/
 #content {
-    height: 2000px;
+    min-height: 2000px;
 }
 
 #content .section-content {
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
-    padding: 64px 24px;
+    padding: 48px 0px 32px;
 }
 
 #content .section-background-color {
     background-color: rgb(247, 217, 154)
 }
 
-#content .section-background-color {
-    
-}
-
 #content .section-text {
     width: 100%;
-    padding: 0px 15px;
+    /*padding: 0px 15px;*/
 }
 
 #content .section-text h1 {
@@ -190,6 +199,12 @@ html {
     padding: 16px 0px 0px ;
 }
 
+#content .section-img img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px 0px 15px;
+}
 
 
 /*CONTENT-END*/
